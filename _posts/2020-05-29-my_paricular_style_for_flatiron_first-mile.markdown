@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "My Paricular Style for Flatiron First-Mile"
-date:       2020-05-29 07:23:33 +0000
+date:       2020-05-29 03:23:34 -0400
 permalink:  my_paricular_style_for_flatiron_first-mile
 ---
 
