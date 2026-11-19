@@ -1,0 +1,70 @@
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  background: #1a1d23;
+  color: #e8e8e8;
+  line-height: 1.6;
+}
+
+header {
+  text-align: center;
+  padding: 3rem 1rem 2rem;
+  border-bottom: 1px solid #333;
+}
+
+header h1 {
+  margin: 0 0 0.5rem;
+  font-size: 2.25rem;
+}
+
+.tagline {
+  color: #b0b0b0;
+  max-width: 560px;
+  margin: 0 auto 1rem;
+}
+
+.contact a, .links a {
+  color: #7ec8e3;
+}
+
+main {
+  max-width: 640px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+main h2 {
+  margin-top: 0;
+  font-size: 1.5rem;
+}
+
+.project {
+  background: #242832;
+  border: 1px solid #333;
+  border-radius: 8px;
+  padding: 1.25rem 1.5rem;
+  margin-bottom: 1.25rem;
+}
+
+.project h3 {
+  margin: 0 0 0.5rem;
+}
+
+.project p {
+  margin: 0 0 0.75rem;
+}
+
+.project .links {
+  margin-bottom: 0;
+  font-size: 0.95rem;
+}
+
+footer {
+  text-align: center;
+  color: #888;
+  font-size: 0.85rem;
+  padding: 1.5rem 1rem 2.5rem;
+  border-top: 1px solid #333;
+}
