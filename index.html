@@ -3,78 +3,90 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Jonah Mallard — technical support professional with full-stack development training. Projects, demos, and source code.">
   <title>Jonah Mallard — Technical Support &amp; Full-Stack Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Sora:wght@600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header>
-    <h1>Jonah Mallard</h1>
-    <p class="tagline">Technical support professional with full-stack development training (Flatiron School, General Assembly).</p>
-    <p class="contact">
-      <a href="mailto:benjaminjmallard@gmail.com">benjaminjmallard@gmail.com</a>
-      &middot;
-      <a href="https://github.com/Jonahmallard">GitHub</a>
-      &middot;
-      <a href="https://www.linkedin.com/in/jonahmallard">LinkedIn</a>
-    </p>
-  </header>
-
-  <main>
-    <h2>Projects</h2>
-
-    <section class="project">
-      <h3>My Books App</h3>
-      <p>A MERN stack app for organizing book collections, with user accounts and full CRUD. React and Node on the frontend, Express backend, MongoDB with Mongoose.</p>
-      <p class="links">
-        <a href="https://my-books-app-bw2v.onrender.com/">Live demo</a>
-        &middot;
-        <a href="https://github.com/Jonahmallard/my-books-app">Source code</a>
+  <div class="site">
+    <header class="site-header">
+      <p class="eyebrow">Lynchburg, Virginia</p>
+      <h1>Jonah Mallard<span class="dot">.</span></h1>
+      <p class="tagline">Technical support professional with full-stack development training (Flatiron School, General Assembly).</p>
+      <p class="contact">
+        <a class="pill" href="mailto:benjaminjmallard@gmail.com">Email</a>
+        <a class="pill" href="https://github.com/Jonahmallard">GitHub</a>
+        <a class="pill" href="https://www.linkedin.com/in/jonahmallard">LinkedIn</a>
       </p>
-    </section>
+    </header>
 
-    <section class="project">
-      <h3>Twitter Clone</h3>
-      <p>A Twitter-style app with posts, comments, and likes/dislikes. React and Redux on the frontend, Rails API on the backend.</p>
-      <p class="links">
-        <a href="https://twitter-clone-79ug.onrender.com/">Live demo</a>
-        &middot;
-        <a href="https://github.com/Jonahmallard/Twitter-Clone">Frontend code</a>
-        &middot;
-        <a href="https://github.com/Jonahmallard/Tweets-App-Backend">Backend code</a>
-      </p>
-    </section>
+    <hr class="header-rule">
 
-    <section class="project">
-      <h3>Video Game Collector</h3>
-      <p>An Express app for collecting video games and writing reviews with 1–5 star ratings. Browse-only demo version.</p>
-      <p class="links">
-        <a href="https://videogame-reviews.onrender.com">Live demo</a>
-        &middot;
-        <a href="https://github.com/Jonahmallard/videogame-reviews">Source code</a>
-      </p>
-    </section>
+    <main>
+      <div class="section-head">
+        <h2>Projects</h2>
+        <span class="line"></span>
+      </div>
 
-    <section class="project">
-      <h3>Music School</h3>
-      <p>A Django lesson-booking platform: teachers, lessons, and profiles, with sign-up/login, photo upload, and embedded video.</p>
-      <p class="links">
-        <a href="https://music-school-s2xq.onrender.com/">Live demo</a>
-        &middot;
-        <a href="https://github.com/Jonahmallard/music-school">Source code</a>
-      </p>
-    </section>
+      <div class="grid">
+        <section class="project">
+          <h3>My Books App</h3>
+          <p>A MERN stack app for organizing book collections, with user accounts and full CRUD. React and Node on the frontend, Express backend, MongoDB with Mongoose.</p>
+          <div class="tags"><span class="tag">MERN</span><span class="tag">React</span><span class="tag">Express</span><span class="tag">MongoDB</span></div>
+          <p class="links">
+            <a class="btn btn-primary" href="https://my-books-app-bw2v.onrender.com/">Live demo</a>
+            <a class="btn btn-ghost" href="https://github.com/Jonahmallard/my-books-app">Source code</a>
+          </p>
+        </section>
 
-    <section class="project">
-      <h3>Dose Planner</h3>
-      <p>A pill tracker web app: medication schedules, dose adherence tracking, and refill alerts. Built in Lovable — the demo loads with sample data.</p>
-      <p class="links">
-        <a href="https://dose-planner-app.lovable.app/?demo=1">Live demo</a>
-      </p>
-    </section>
-  </main>
+        <section class="project">
+          <h3>Twitter Clone</h3>
+          <p>A Twitter-style app with posts, comments, and likes/dislikes. React and Redux on the frontend, Rails API on the backend.</p>
+          <div class="tags"><span class="tag">React</span><span class="tag">Redux</span><span class="tag">Rails API</span></div>
+          <p class="links">
+            <a class="btn btn-primary" href="https://twitter-clone-79ug.onrender.com/">Live demo</a>
+            <a class="btn btn-ghost" href="https://github.com/Jonahmallard/Twitter-Clone">Frontend code</a>
+            <a class="btn btn-ghost" href="https://github.com/Jonahmallard/Tweets-App-Backend">Backend code</a>
+          </p>
+        </section>
 
-  <footer>
-    <p>Built with plain HTML &amp; CSS. Demos hosted free on Render and Lovable.</p>
-  </footer>
+        <section class="project">
+          <h3>Video Game Collector</h3>
+          <p>An Express app for collecting video games and writing reviews with 1–5 star ratings. Browse-only demo version.</p>
+          <div class="tags"><span class="tag">Express</span><span class="tag">Mongoose</span><span class="tag">EJS</span></div>
+          <p class="links">
+            <a class="btn btn-primary" href="https://videogame-reviews.onrender.com">Live demo</a>
+            <a class="btn btn-ghost" href="https://github.com/Jonahmallard/videogame-reviews">Source code</a>
+          </p>
+        </section>
+
+        <section class="project">
+          <h3>Music School</h3>
+          <p>A Django lesson-booking platform: teachers, lessons, and profiles, with sign-up/login, photo upload, and embedded video.</p>
+          <div class="tags"><span class="tag">Django</span><span class="tag">Python</span><span class="tag">PostgreSQL</span></div>
+          <p class="links">
+            <a class="btn btn-primary" href="https://music-school-s2xq.onrender.com/">Live demo</a>
+            <a class="btn btn-ghost" href="https://github.com/Jonahmallard/Music-School">Source code</a>
+          </p>
+        </section>
+
+        <section class="project">
+          <h3>Dose Planner</h3>
+          <p>A pill tracker web app: medication schedules, dose adherence tracking, and refill alerts. Built in Lovable — the demo loads with sample data.</p>
+          <div class="tags"><span class="tag">Lovable</span><span class="tag">Web app</span></div>
+          <p class="links">
+            <a class="btn btn-primary" href="https://dose-planner-app.lovable.app/?demo=1">Live demo</a>
+          </p>
+        </section>
+      </div>
+    </main>
+
+    <footer>
+      <p>Built with plain HTML &amp; CSS. Demos hosted free on Render and Lovable.</p>
+    </footer>
+  </div>
 </body>
 </html>
